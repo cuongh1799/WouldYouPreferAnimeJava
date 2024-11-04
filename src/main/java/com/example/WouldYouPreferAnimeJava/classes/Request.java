@@ -1,23 +1,23 @@
-package com.example.WouldYouPreferAnimeJava.controllers;
+package com.example.WouldYouPreferAnimeJava.classes;
 
 public class Request {
 
     private String email;
     private String password;
     
-    public void setemail(String reqString){
+    public void setEmail(String reqString){
         this.email = reqString;
     }
 
-    public void setpassword(String reqString){
+    public void setPassword(String reqString){
         this.password = reqString;
     }
 
-    public String getemail(){
+    public String getEmail(){
         return this.email;
     }
 
-    public String getpassword(){
+    public String getPassword(){
         return this.password;
     }
 }

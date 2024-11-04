@@ -11,9 +11,23 @@ public class usersModel {
     private String email;
     private String password;
 
+    public usersModel(){};
+
     public usersModel(String emailInput, String passwordInput){
         this.email = emailInput;
         this.password = passwordInput;
+    }
+
+    public String getId(){
+        return this.id;
+    }
+
+    public String getEmail(){
+        return this.email;
+    }
+
+    public String getPassword(){
+        return this.password;
     }
 
 }
