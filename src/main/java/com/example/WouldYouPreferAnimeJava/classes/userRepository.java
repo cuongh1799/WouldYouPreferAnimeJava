@@ -5,5 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface userRepository extends MongoRepository<usersModel, String>{
-    
+
+    usersModel findByEmail(String Email);
+
 }
